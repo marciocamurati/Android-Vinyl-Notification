@@ -1,0 +1,58 @@
+/* Elements*/
+body {
+	background: #99cc33;
+}
+
+body.template_green {
+	background: #99cc33;
+}
+
+body.template_red {
+	background: #99cc33;
+}
+
+body.template_yellow {
+	background: #ffcc33;
+}
+
+body.template_brown {
+	background: #663333;
+}
+
+body,input,select,textarea {
+	color: #FFF;
+	font: 9px Trebuchet MS,Arial,sans-serif;
+}
+
+textarea {
+	overflow: auto
+}
+
+button {
+	cursor: pointer;
+	cursor: hand;
+	border: 0;
+}
+
+ol li,ul li {
+	list-style-position: outside;
+	list-style-type: none
+}
+
+ol li {
+	list-style-position: inside;
+	list-style-type: decimal
+}
+
+a {
+	color: #FFF;
+	text-decoration: underline
+}
+
+a:hover,a:focus {
+	text-decoration: none
+}
+
+div h3	{
+	visibility: hidden;
+}
